@@ -6,7 +6,7 @@
 #    By: dtony <dtony@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/12/12 08:07:33 by dtony             #+#    #+#              #
-#    Updated: 2020/01/02 17:14:38 by dtony            ###   ########.fr        #
+#    Updated: 2020/01/10 14:47:12 by dtony            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -35,17 +35,17 @@ SRC		=	ft_atoi.c \
 			ft_memmove.c \
 			ft_memrcpy.c \
 			ft_memset.c \
+			ft_strnew.c \
+			ft_strcpy.c \
+			ft_strcat.c \
 			ft_putchar_fd.c \
 			ft_putendl_fd.c \
 			ft_putnbr_fd.c \
 			ft_putstr_fd.c \
 			ft_split.c \
-			ft_strnew.c \
 			ft_strchr.c \
 			ft_strdup.c \
 			ft_strjoin.c \
-			ft_strcat.c \
-			ft_strcpy.c \
 			ft_strlcat.c \
 			ft_strlcpy.c \
 			ft_strlen.c \

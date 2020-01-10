@@ -6,7 +6,7 @@
 /*   By: dtony <dtony@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/06 14:10:37 by dtony             #+#    #+#             */
-/*   Updated: 2019/12/12 07:39:20 by dtony            ###   ########.fr       */
+/*   Updated: 2020/01/10 10:06:27 by dtony            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,12 @@
 
 void	ft_lstdelone(t_list *lst, void (*del)(void *))
 {
-	del(lst->content);
+	if (lst)
+	{
+		if (lst->content)
+		{
+			del(lst->content);
+			lst->content = NULL;
+		}
+	}
 }
