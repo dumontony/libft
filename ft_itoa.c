@@ -6,15 +6,15 @@
 /*   By: dtony <dtony@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/04 17:50:50 by dtony             #+#    #+#             */
-/*   Updated: 2020/01/02 10:16:41 by dtony            ###   ########.fr       */
+/*   Updated: 2020/01/10 09:24:34 by dtony            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static int		ft_itoa_sizer(int nb)
+static int			ft_itoa_sizer(int nb)
 {
-	int		count;
+	int				count;
 
 	count = 1;
 	if (nb < 0)
@@ -29,7 +29,7 @@ static int		ft_itoa_sizer(int nb)
 	return (count);
 }
 
-char	*ft_itoa(int n)
+char				*ft_itoa(int n)
 {
 	int				i;
 	unsigned int	nb;
